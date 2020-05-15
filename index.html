@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Random Japanese Name Generator</h1>
+        <p>A small tool to help you pick a name for a game or whatever.</p>
+    </header>
+
+    <div id="input-frame">
+        <div>
+            <label>Minimum number of syllables</label>
+            <input id="min" type="number" value="2">
+        </div>
+        <div>
+            <label>Maximum number of syllables</label>
+            <input id="max" type="number" value="5">
+        </div>
+        <button id="button" onclick="displayNames()">Generate Names</button>
+    </div>
+
+    <div id="table-head">
+        <span>Letter Names</span>
+        <span>Kana Names</span>
+    </div>
+    <div id="table-content"></div>
+
+    <template>
+        <div class="element">
+            <div><span></span></div>
+            <div><span></span></div>
+        </div>
+    </template>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

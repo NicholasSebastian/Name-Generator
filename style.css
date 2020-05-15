@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap");
+
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #25242f;
+  color: #fff;
+  font-family: "Asap", sans-serif;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  margin: 0;
+  color: #000;
+}
+
+#input-frame {
+  margin: 20px auto;
+  width: 480px;
+  height: 160px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#input-frame div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+#input-frame input {
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 50px;
+  height: 20px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+#button {
+  margin: 8px auto;
+  width: 160px;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+#table-head {
+  visibility: hidden;
+  border-bottom: 1px solid #fff;
+  margin: 50px auto 0 auto;
+  width: 600px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.element {
+  margin: 0 auto;
+  width: 600px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.element div {
+  width: 150px;
+}
